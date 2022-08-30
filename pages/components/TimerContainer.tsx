@@ -58,6 +58,7 @@ export const TimerContainer = ({ birthDate }: BirthDateProps) => {
       detail: "Segundos",
     },
   ];
+
   return (
     <div className="mt-2 md:mt-20 rounded-xl grid grid-cols-2 gap-1 py-6 px-10 md:flex md:items-center md:justify-between md:px-6 md:py-8">
       {timerComponents.map((timerComponent, id) => (
